@@ -61,7 +61,11 @@ let returnName = function (array) {
 
 //Exercice 11 : Stocker tous les index du tableau person dans des variables séparées et les retourner dans une même phrase de type : "Bonjour, je suis Jean. J\'ai 45 ans et j\'habite Paris."', function() {
 let returnSentence = function (array) {
-  return 'A compléter';
+  let name = array.name;
+  let age = array.age;
+  let city = array.city;
+  let reponse = 'Bonjour, je suis ' + name + '. ' + 'J\'ai ' + age + ' ans et j\'habite ' + city + '.';
+  return reponse;
 }
 
 //Exercice 12 : Transformer la variable string en tableau.', function() {

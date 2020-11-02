@@ -70,7 +70,8 @@ let returnSentence = function (array) {
 
 //Exercice 12 : Transformer la variable string en tableau.', function() {
 let returnArray = function (string) {
-  return 'A compléter';
+  let array = string.split(',');
+  return array;
 }
 
 //Exercice 13 : Trier le tableau array.', function() {

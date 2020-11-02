@@ -49,7 +49,6 @@ let removeLastElement = function (array) {
 //Exercice 9 : Créer un tableau associatif person. Lui ajouter les index name, age et city avec les valeurs Jean, 45, Paris.', function() {
 let createPerson = function () {
   person = {name: 'Jean', age : 45, city: 'Paris'};
-  // console.log(person);
   return person;
 }
 

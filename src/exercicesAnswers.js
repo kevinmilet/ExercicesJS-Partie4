@@ -81,5 +81,5 @@ let sortArray = function (array) {
 
 //Exercice 14 : Transformer le tableau array en chaîne de caractères', function() {
 let returnString = function (array) {
-  return 'A compléter';
+  return array.toString();
 }

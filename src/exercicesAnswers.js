@@ -57,6 +57,7 @@ let createPerson = function () {
 
 //Exercice 10 : Retourner la valeur de l\'index nom du tableau person.', function() {
 let returnName = function (array) {
+  console.log(array);
   let reponse = array.name;
   return reponse;
 }
